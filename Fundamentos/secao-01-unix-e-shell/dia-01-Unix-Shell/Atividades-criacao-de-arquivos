@@ -1,0 +1,22 @@
+ mkdir unix-tests 
+cd unix-tests
+touch trybe.txt
+cp trybe.txt trybe-backup.txt
+mv trybe.txt Trybe.txt
+mkdir backup
+mv trybe-backup.txt backup
+mkdir backup2
+cd ..
+mv backup/trybe-backup.txt backup2
+rm -rf backup
+mv backup2 backup
+ls : backup Trybe.txt
+rm -rf backup
+clear
+
+
+Se fosse no console:
+touch skills.txt
+head -n 5 skills.txt
+tail -n 4 skills.txt
+rm *.txt

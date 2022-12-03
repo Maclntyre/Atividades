@@ -1,0 +1,25 @@
+ps
+sleep 30 &
+ps | grep sleep
+kill (PID do processo)
+sleep 30
+ctrl z
+bg
+sleep 300 &
+ctrl z
+sleep 200
+ctrl z
+sleep 100
+ctrl z
+jobs
+fg %1 
+ctrl z
+jobs
+bg %3 # 
+jobs
+ps | grep sleep
+kill (PID do processo)
+kill (PID do processo)
+kill (PID do processo)
+ou
+killall sleep

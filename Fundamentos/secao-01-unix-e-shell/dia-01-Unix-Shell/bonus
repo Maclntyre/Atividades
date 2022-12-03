@@ -1,0 +1,15 @@
+sudo apt-get install cmatrix
+cmatrix
+udo apt-get install fortune
+fortune > fortune.txt
+wc -w fortune.txt
+sudo apt-get install sl
+sl
+sl -f
+sudo apt-get install cowsay
+cowsay vitrola
+tail fortune.txt | cowsay
+factor 42
+tail fortune.txt | rev
+telnet towel.blinkenlights.nl
+
