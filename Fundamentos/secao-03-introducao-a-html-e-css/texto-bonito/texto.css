@@ -1,0 +1,28 @@
+#titulo {
+  font-family: sans-serif;
+}
+
+.paragrafo {
+  font-weight: 600;
+}
+
+#corpão-violão {
+  font-size: 16px;
+}
+#cores-lista {
+  font-style: oblique;
+  line-height: 72px;
+  text-align: right;
+  text-decoration: wavy;
+
+  font-size: 2em;
+}
+#rosa {
+  background-color: magenta;
+}
+#amarelo {
+  background-color: yellow;
+}
+#azul {
+  background-color: aqua;
+}
