@@ -1,0 +1,14 @@
+#parametros {
+  text-align: center;
+}
+
+ul:hover,
+ol:hover {
+  background-color: maroon;
+}
+
+li:active {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  list-style: none;
+}
