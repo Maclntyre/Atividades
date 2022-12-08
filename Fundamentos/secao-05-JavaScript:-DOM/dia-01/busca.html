@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Go Trybe!</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      // Seu código aqui
+      function changeTxt() {
+        let paragrafo = document.getElementsByTagName("p")[1];
+        paragrafo.innerHTML = "Estar em um ambiente saudável";
+      }
+      changeTxt();
+
+      function changeCollor() {
+        let yellowgreen = document.getElementsByClassName("main-content")[0];
+        yellowgreen.style.background = "rgb(76,164,109)";
+      }
+      changeCollor();
+
+      function morangos() {
+        let geleia = document.getElementsByClassName("center-content")[0];
+        geleia.style.background = "white";
+      }
+      morangos();
+
+      function profPasquale() {
+        let titulo = document.getElementsByTagName("h1")[0];
+        titulo.innerHTML = "Exercício 5.1: JavaScript";
+      }
+      profPasquale();
+
+      function crescimento() {
+        let textinho = document.getElementsByTagName("p")[0];
+        textinho.innerHTML = textinho.innerHTML.toUpperCase();
+      }
+      crescimento();
+
+      function vazamentos() {
+        let textoes = document.getElementsByTagName("p");
+        for (let i = 0; i < textoes.length; i += 1) {
+          console.log(textoes[i].innerHTML);
+        }
+      }
+      vazamentos();
+    </script>
+  </body>
+</html>
