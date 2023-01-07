@@ -1,9 +1,8 @@
 .rapidinho {
-  background-color: yellow;
+  background-color: bisque;
 }
 #sub {
   font-style: italic;
-  font-weight: 200;
 }
 .one {
   text-align: center;
@@ -21,4 +20,39 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px gray solid;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav ul li a {
+  padding: 5px 10px;
+  text-decoration: wavy;
+  font-style: oblique;
+  color: black;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
 }
