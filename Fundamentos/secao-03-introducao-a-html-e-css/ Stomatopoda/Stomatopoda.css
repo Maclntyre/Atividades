@@ -3,8 +3,22 @@
 }
 #sub {
   font-style: italic;
+  font-weight: 200;
 }
 .one {
   text-align: center;
   font-style: oblique;
+}
+body {
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  width: 60%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
